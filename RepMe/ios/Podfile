@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'RepMe' do
-  # Pods for RepMe
+target 'RepMe2' do
+  # Pods for RepMe2
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'RepMe' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'RepMeTests' do
+  target 'RepMe2Tests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'RepMe' do
   end
 end
 
-target 'RepMe-tvOS' do
-  # Pods for RepMe-tvOS
+target 'RepMe2-tvOS' do
+  # Pods for RepMe2-tvOS
 
-  target 'RepMe-tvOSTests' do
+  target 'RepMe2-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

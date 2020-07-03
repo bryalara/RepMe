@@ -1,4 +1,4 @@
-package com.repme;
+package com.repme2;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RepMe";
+    return "RepMe2";
   }
 }

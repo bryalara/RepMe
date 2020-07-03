@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.repme"
+        applicationId "com.repme2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
